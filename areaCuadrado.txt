@@ -1,0 +1,16 @@
+//Calcular el area de un cuadrado y perimetro
+import java.util.Scanner;
+public class areaCuadrado{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        Double lado,area,perimetro;
+        System.out.println("Ingrese un lado del cuadrado: ");
+        lado = input.nextDouble();
+        area = lado*lado;
+        perimetro = lado*4;
+        System.out.println("El area del cuadrado es de "+area+" cm^2");
+        System.out.println("su perimetro es de "+perimetro);
+
+    }
+
+}
